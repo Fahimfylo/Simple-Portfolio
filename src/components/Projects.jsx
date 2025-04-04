@@ -1,8 +1,8 @@
-import Portfolio from "../assets/Portfolio.png";
-import SpicyBites from "../assets/SpicyBites.png";
-import Youtube from "../assets/Youtube.png";
-import Webelite from "../assets/webelite.png";
-import Supercar from "../assets/Supercar.png";
+import Portfolio from "../../public/images/Portfolio.jpg";
+import SpicyBites from "../../public/images/SpicyBites.png";
+import Youtube from "../../public/images/Youtube.png";
+import Webelite from "../../public/images/webelite.png";
+import Supercar from "../../public/images/Supercar.png";
 import Cards from "./Cards";
 
 const Projects = () => {
@@ -11,36 +11,36 @@ const Projects = () => {
       title: "Portfolio",
       desc: "Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.",
       image: Portfolio,
-      live: "https://rohitsingh93300-portfolio.vercel.app/",
-      github: "https://github.com/rohitsingh93300/portfolio",
+      live: "",
+      github: "https://github.com/Fahimfylo",
     },
     {
       title: "Spicy Bites",
       desc: "The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!",
       image: SpicyBites,
-      live: "https://spicybites.netlify.app/",
-      github: "https://github.com/rohitsingh93300/YtSpicyBites",
+      live: "",
+      github: "https://github.com/Fahimfylo",
     },
     {
       title: "YouTube Clone",
       desc: "Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.",
       image: Youtube,
-      live: "https://youtube-clone-93300.netlify.app/",
-      github: "https://github.com/rohitsingh93300/YouTube-clone",
+      live: "https://github.com/Fahimfylo",
+      github: "https://github.com/Fahimfylo",
     },
     {
       title: "Webelite builder",
       desc: "Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.",
       image: Webelite,
-      live: "https://www.webelitebuilders.com/",
-      github: "#",
+      live: "",
+      github: "https://github.com/Fahimfylo",
     },
     {
       title: "Super Car",
       desc: "Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.",
       image: Supercar,
-      live: "https://supercar123.netlify.app/",
-      github: "https://github.com/rohitsingh93300/supercars",
+      live: "",
+      github: "https://github.com/Fahimfylo",
     },
   ];
 
@@ -51,9 +51,9 @@ const Projects = () => {
           My Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-10">
-            {dataJson.map((items) =>{
-                return <Cards key={""} item = {items}/>
-            })}
+          {dataJson.map((items) => {
+            return <Cards key={""} item={items} />;
+          })}
         </div>
       </div>
     </section>

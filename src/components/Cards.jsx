@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Github from "../assets/Github.png";
+import Github from "../../public/images/Github.png";
 
 const Cards = ({ item }) => {
   return (

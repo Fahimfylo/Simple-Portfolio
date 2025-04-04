@@ -1,15 +1,16 @@
-import MernStack from "../assets/mernstack.png";
-import Html from "../assets/Html.png";
-import Css from "../assets/CSS.png";
-import Javascript from "../assets/JS.png";
-import ReactLogo from "../assets/React.png";
-import ReduxLogo from "../assets/Redux.png";
-import Tailwind from "../assets/Tailwind Css.png";
-import Bootstrap from "../assets/Bootstrap.png";
-import Nodejs from "../assets/NodeLogo.png";
-import Mongodb from "../assets/mongodb.svg";
-import Express from "../assets/Express.png";
-import Nextjs from "../assets/NextJs.png";
+/* eslint-disable react/no-unescaped-entities */
+import MernStack from "../../public/images/mernstack.png";
+import Html from "../../public/images/Html.png";
+import Css from "../../public/images/CSS.png";
+import Javascript from "../../public/images/JS.png";
+import ReactLogo from "../../public/images/React.png";
+import ReduxLogo from "../../public/images/Redux.png";
+import Tailwind from "../../public/images/Tailwind Css.png";
+import Bootstrap from "../../public/images/Bootstrap.png";
+import Nodejs from "../../public/images/NodeLogo.png";
+import Mongodb from "../../public/images/mongodb.svg";
+import Express from "../../public/images/Express.png";
+import Nextjs from "../../public/images/NextJs.png";
 
 const About = () => {
   return (

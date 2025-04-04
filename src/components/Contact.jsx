@@ -1,8 +1,9 @@
-import facebook from "../assets/facebook.png";
-import instagram from "../assets/instagram.png";
-import linkedin from "../assets/linkedin.png";
+/* eslint-disable react/no-unescaped-entities */
+import facebook from "../../public/images/facebook.png";
+import instagram from "../../public/images/instagram.png";
+import linkedin from "../../public/images/linkedin.png";
 import Lottie from "lottie-react";
-import contact from "../assets/Contact.json";
+import contact from "../../public/images/Contact.json";
 
 const Contact = () => {
   return (

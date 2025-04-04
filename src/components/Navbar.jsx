@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../assets/Logo.png";
+import Logo from "../../public/images/Logo.png";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
